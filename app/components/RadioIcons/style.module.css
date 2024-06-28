@@ -1,0 +1,7 @@
+.radioIcons {
+  display: flex;
+  gap: 17px;
+}
+.radioIcon :hover {
+  cursor: pointer;
+}

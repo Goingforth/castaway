@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.logo {
+  padding: 17px 0;
+}

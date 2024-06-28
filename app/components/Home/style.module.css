@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 40px;
+}
+.wrapper {
+  border-radius: 14px;
+  margin-left: 20px;
+  margin-right: 60px;
+}
+.wrapperLines {
+  position: absolute;
+  top: 14px;
+  left: -6px;
+}
+.wrapperLine {
+  position: absolute;
+  top: 175px;
+  left: 0;
+}
+.homeInfo {
+  width: 530px;
+  padding-top: 163px;
+}
+.homeText {
+  position: relative;
+  padding-bottom: 90px;
+  color: var(--color-white);
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+}
+.spanText {
+  font-size: 80px;
+  font-weight: bold;
+}
+.homeListenTitle {
+  color: var(--color-white);
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  padding-bottom: 17px;
+}
