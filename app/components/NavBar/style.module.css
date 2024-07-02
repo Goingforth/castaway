@@ -8,5 +8,5 @@
   line-height: 27px;
 }
 .navbarItem :hover {
-  color: var(--color-Link_hover);
+  color: var(--color-blue);
 }

@@ -1,0 +1,19 @@
+.container {
+  padding: 93px 20px 160px 20px;
+  color: var(--color-white);
+}
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 64px;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+}
+.episodes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 60px;
+}

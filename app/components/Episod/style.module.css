@@ -1,0 +1,14 @@
+.container {
+  padding: 40px;
+  background-color: var(--color-black);
+  border-radius: 32px;
+}
+/* .headerDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 64px;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+} */

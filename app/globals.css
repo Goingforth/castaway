@@ -13,7 +13,8 @@ body {
   --max-width: 1440px;
   --background-main: #191919;
   --color-white: #ffffff;
-  --color-Link_hover: #118da8;
+  --color-blue: #118da8;
+  --color-black: #000000;
 }
 li,
 a {

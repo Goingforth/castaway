@@ -13,9 +13,8 @@ const RadioIcons = () => {
   return (
     <div className={styles.radioIcons}>
       {radioIcons.map((icon) => (
-        <div className={styles.radioIcon}>
+        <div key={icon.name} className={styles.radioIcon}>
           <Image
-            key={icon.name}
             src={icon.icon}
             width={32}
             height={32}
