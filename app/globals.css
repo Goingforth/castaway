@@ -15,6 +15,7 @@ body {
   --color-white: #ffffff;
   --color-blue: #118da8;
   --color-black: #000000;
+  --color-gray: rgba(255, 255, 255, 0.7);
 }
 li,
 a {

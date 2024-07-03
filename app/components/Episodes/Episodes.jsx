@@ -1,5 +1,5 @@
 import React from "react";
-import ButttonEpisodes from "../ButtonEpsodes/ButttonEpisodes";
+import ButttonEpisodes from "../ButtonEpisodes/ButttonEpisodes";
 import Episod from "../Episod/Episod";
 import { dataEpisodes } from "../Data/Data";
 
