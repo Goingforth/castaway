@@ -17,3 +17,13 @@
   margin-top: 40px;
   gap: 60px;
 }
+.tabsLine {
+  display: flex;
+  gap: 24px;
+}
+.tabsLineItem {
+  cursor: pointer;
+}
+.tabsLineItem:hover {
+  color: var(--color-blue);
+}

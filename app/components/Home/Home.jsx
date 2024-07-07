@@ -11,6 +11,7 @@ const Home = () => {
         width={650}
         height={874}
         alt='Picture of home'
+        priority
         className={styles.wrapper}
       />
       <Image

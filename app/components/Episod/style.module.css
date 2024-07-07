@@ -24,20 +24,17 @@
   gap: 18px;
 }
 .episode {
-  /* margin-bottom: 18px; */
   font-size: 18px;
   line-height: 27px;
   color: var(--color-blue);
 }
 .title {
-  /* margin-bottom: 18px; */
   font-size: 64px;
   line-height: 71px;
   letter-spacing: 2.56px;
   white-space: pre-wrap;
 }
 .infoText {
-  /* margin-bottom: 18px; */
   white-space: pre-wrap;
   font-size: 22px;
   line-height: 33px;

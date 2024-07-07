@@ -26,6 +26,9 @@ li {
   list-style-type: none;
   /* Убираем маркеры */
 }
+p {
+  margin: 0;
+}
 
 /* --max-width: 1100px;
   --border-radius: 12px;

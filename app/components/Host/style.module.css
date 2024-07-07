@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  padding-top: 112px;
+  padding-bottom: 88px;
+}
+.wrapper {
+  border-radius: 22px;
+  overflow: hidden;
+}
+.info {
+  width: 590px;
+}
+.infoTitle {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--color-blue);
+}
+.name {
+  color: var(--color-white);
+  font-size: 65px;
+  line-height: 80px;
+  letter-spacing: 2.88px;
+}
+.infoText {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  margin-top: 28px;
+  color: var(--color-gray);
+  font-size: 22px;
+  line-height: 33px;
+}
