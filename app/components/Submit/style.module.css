@@ -1,24 +1,21 @@
 .container {
   padding: 104px 20px 96px;
-  border: 1px solid red;
 }
 .form {
   display: flex;
+  position: relative;
   gap: 76px;
-  padding: 60px 60px 75px 60px;
+  padding: 59px 60px 73px 60px;
   border-radius: 32px;
   background-color: var(--color-black);
-  border: 1px solid green;
 }
 .title {
   width: 642px;
   color: var(--color-blue);
   font-size: 18px;
   line-height: 27px;
-  border: 1px solid blue;
 }
 .invite {
-  padding-bottom: 143px;
   color: var(--color-white);
   font-size: 72px;
   line-height: 72px;
@@ -40,10 +37,16 @@
   background-color: var(--background-main);
 }
 .buttonSubmit {
-  padding: 9px 19px 10px;
+  padding: 9px 19px;
   font-size: 15px;
-  line-height: 28.8px;
+  line-height: 28px;
+  font-weight: bold;
   color: var(--color-gray);
   background-color: var(--color-blue);
   border-radius: 6px;
+}
+.lines {
+  position: absolute;
+  bottom: -38px;
+  left: -38px;
 }

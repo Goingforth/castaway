@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import styles from "./style.module.css";
 
 const Submit = () => {
@@ -9,6 +10,14 @@ const Submit = () => {
           Email Newsletter
           <div className={styles.invite}>
             Subscribe <p>for updates</p>
+          </div>
+          <div className={styles.lines}>
+            <Image
+              src='/lines_down.png'
+              width={147}
+              height={91}
+              alt='Picture of the lines down'
+            />
           </div>
         </div>
 
