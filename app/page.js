@@ -3,8 +3,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Episodes from "./components/Episodes/Episodes";
 import About from "./components/About/About";
-
-import styles from "./page.module.css";
+import Footer from "./components/Footer/Footer";
 
 export default function Castaway() {
   return (
@@ -13,6 +12,7 @@ export default function Castaway() {
       <Home />
       <Episodes />
       <About />
+      <Footer />
 
 
     </main>

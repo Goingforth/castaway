@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./style.module.css";
 import Link from "next/link";
-import { navLinks } from "../Data/Data";
-const Navbar = () => {
+
+const NavFooter = ({ navLinks }) => {
   return (
     <ul className={styles.navbar}>
       {navLinks.map((link) => (
@@ -13,4 +13,4 @@ const Navbar = () => {
     </ul>
   );
 };
-export default Navbar;
+export default NavFooter;

@@ -1,4 +1,6 @@
 import { episode1, episode2, episode3 } from "@/public/episodes";
+import { link1, link2, link3 } from "@/public/links";
+import { radio1, radio2, radio3, radio4, radio5 } from "@/public/radio";
 
 export const dataEpisodes = [
   {
@@ -61,4 +63,49 @@ export const dataComments = [
     comment: "I’ve upped my game considerably since I started listening",
     author: "Steven Blast",
   },
+];
+
+export const socialLinks = [
+  {
+    id: "socLink1",
+    image: link1,
+    path: "https://www.instagram.com/",
+    name: "Instagram",
+  },
+  {
+    id: "socLink2",
+    image: link2,
+    path: "https://twitter.com/",
+    name: "Twitter",
+  },
+  {
+    id: "socLink3",
+    image: link3,
+    path: "https://facebook.com/",
+    name: "Facebook",
+  },
+];
+
+export const navLinks = [
+  { title: "Home", path: "#home" },
+  { title: "Episodes", path: "#episodes" },
+  { title: "About", path: "#about" },
+  { title: "Contact", path: "#contact" },
+];
+
+export const navLinksSecondBlock = [
+  { title: "Style Guide", path: "#styleguide" },
+  { title: "Instructions", path: "#instructions" },
+  { title: "Changelog", path: "#changelog" },
+  { title: "Credit", path: "#credit" },
+  { title: "Powered by Webflow", path: "#powered" },
+  { title: "Licenses", path: "#licenses" },
+];
+
+export const radioIcons = [
+  { name: radio1, icon: radio1 },
+  { name: radio2, icon: radio2 },
+  { name: radio3, icon: radio3 },
+  { name: radio4, icon: radio4 },
+  { name: radio5, icon: radio5 },
 ];

@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  padding: 100px 20px;
+  gap: 16px;
+
+  color: var(--color-white);
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  gap: 20px;
+}

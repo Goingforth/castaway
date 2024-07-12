@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 179px;
+
+  font-size: 17px;
+  line-height: 27px;
+}
+.navbarItem :hover {
+  color: var(--color-blue);
+}
