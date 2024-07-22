@@ -59,7 +59,7 @@ export const dataComments = [
   {
     id: "comment6",
     star: 5,
-    comment: "I’ve upped my game considerably since I started listening",
+    comment: "I’ve upped my\ngame considerably\nsince I started\nlistening",
     author: "Steven Blast",
   },
 ];

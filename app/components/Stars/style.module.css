@@ -4,6 +4,6 @@
 }
 
 .star {
-  fill: red;
+  fill: var(--color-yellow);
   transition: color 1s ease;
 }

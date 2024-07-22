@@ -1,12 +1,22 @@
-.container {
-  box-sizing: border-box;
+.box {
+  display: flex;
   width: calc(100% / 3 - 16px * 2 / 3);
+}
+.box :hover {
+  cursor: pointer;
+  background-color: var(--color-hover_comment);
+  transform: scale(1.05);
+}
+.container {
+  width: 100%;
   padding: 54px 50px 51px 50px;
   border-radius: 32px;
   background-color: var(--color-black);
+  white-space: pre-wrap;
 
   color: var(--color-white);
 }
+
 .comment {
   margin-top: 21px;
   font-size: 36px;

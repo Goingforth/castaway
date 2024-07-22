@@ -3,12 +3,14 @@ import Stars from "../Stars/Stars";
 import styles from "./style.module.css";
 
 const Comment = ({ data }) => {
-  const { id, star, comment, author, index } = data;
+  const { star, comment, author } = data;
   return (
-    <div className={styles.container}>
-      <Stars star={star} />
-      <div className={styles.comment}>{comment}</div>
-      <div className={styles.author}>{author}</div>
+    <div className={styles.box}>
+      <div className={styles.container}>
+        <Stars star={star} />
+        <div className={styles.comment}>{comment}</div>
+        <div className={styles.author}>{author}</div>
+      </div>
     </div>
   );
 };
