@@ -7,7 +7,7 @@ const Comments = () => {
   return (
     <div className={styles.container}>
       {dataComments.map((dataComment) => (
-        <Comment data={dataComment} />
+        <Comment key={dataComment.id} data={dataComment} />
       ))}
     </div>
   );

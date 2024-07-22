@@ -9,5 +9,6 @@
   line-height: 27px;
 }
 .navbarItem :hover {
+  transition: 0.5s;
   color: var(--color-blue);
 }

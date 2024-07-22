@@ -17,7 +17,7 @@ const Episodes = () => {
         <div className={styles.title}>Latest episodes</div>
         <div style={{ paddingTop: "24px", paddingBottom: "24px" }}>
           <ButttonEpisodes
-            text='View all episodes'
+            text={!allView ? "View all episodes" : "View tabs episodes"}
             onClick={() => setAllView(!allView)}
           />
         </div>

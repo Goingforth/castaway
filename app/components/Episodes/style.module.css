@@ -17,9 +17,16 @@
   margin-top: 40px;
   gap: 60px;
 }
+.tabs {
+  padding-top: 40px;
+  position: relative;
+}
 .tabsLine {
   display: flex;
   gap: 24px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
 }
 .tabsLineItem {
   cursor: pointer;

@@ -1,5 +1,4 @@
 import { episode1, episode2, episode3 } from "@/public/episodes";
-import { link1, link2, link3 } from "@/public/links";
 import { radio1, radio2, radio3, radio4, radio5 } from "@/public/radio";
 
 export const dataEpisodes = [
@@ -67,20 +66,17 @@ export const dataComments = [
 
 export const socialLinks = [
   {
-    id: "socLink1",
-    image: link1,
+    id: "instagram",
     path: "https://www.instagram.com/",
     name: "Instagram",
   },
   {
-    id: "socLink2",
-    image: link2,
+    id: "twitter",
     path: "https://twitter.com/",
     name: "Twitter",
   },
   {
-    id: "socLink3",
-    image: link3,
+    id: "facebook",
     path: "https://facebook.com/",
     name: "Facebook",
   },

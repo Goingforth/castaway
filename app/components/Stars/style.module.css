@@ -2,3 +2,8 @@
   display: flex;
   gap: 5px;
 }
+
+.star {
+  fill: red;
+  transition: color 1s ease;
+}

@@ -2,3 +2,23 @@
   display: flex;
   gap: 10px;
 }
+.navbarItem {
+  stroke: var(--color-white);
+}
+
+.navbarItem :hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+  stroke: var(--color-blue);
+}
+.name {
+  position: absolute;
+  display: none;
+  padding: 10px 0;
+
+  font-size: 12px;
+}
+.navbarItem :hover ~ .name {
+  color: var(--color-blue);
+  display: block;
+}
