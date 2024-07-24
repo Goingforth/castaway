@@ -1,0 +1,22 @@
+.container {
+  margin: 100px 20px;
+  width: 1300px;
+  height: 740px;
+  display: flex;
+  align-items: center;
+}
+.viewport {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.view {
+  display: flex;
+
+  height: 100%;
+  transition: translate;
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}

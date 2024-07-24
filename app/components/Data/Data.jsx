@@ -99,9 +99,40 @@ export const navLinksSecondBlock = [
 ];
 
 export const radioIcons = [
-  { name: radio1, icon: radio1 },
-  { name: radio2, icon: radio2 },
-  { name: radio3, icon: radio3 },
-  { name: radio4, icon: radio4 },
-  { name: radio5, icon: radio5 },
+  { name: "radio1", id: "radio1" },
+  { name: "radio2", id: "radio2" },
+  { name: "radio3", id: "radio3" },
+  { name: "radio4", id: "radio4" },
+  { name: "radio5", id: "radio5" },
+];
+
+export const imagesSlider = [
+  {
+    id: "imageSlider0",
+    path: "/gallery/gallery0.webp",
+  },
+  {
+    id: "imageSlider1",
+    path: "/gallery/gallery1.webp",
+  },
+  {
+    id: "imageSlider2",
+    path: "/gallery/gallery2.webp",
+  },
+  {
+    id: "imageSlider3",
+    path: "/gallery/gallery3.webp",
+  },
+  {
+    id: "imageSlider4",
+    path: "/gallery/gallery4.webp",
+  },
+  {
+    id: "imageSlider5",
+    path: "/gallery/gallery5.webp",
+  },
+  {
+    id: "imageSlider6",
+    path: "/gallery/gallery6.webp",
+  },
 ];
