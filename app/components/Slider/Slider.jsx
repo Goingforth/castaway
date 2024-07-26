@@ -12,10 +12,10 @@ const Slider = () => {
   const [offset, setOffset] = useState(0);
 
   const SlideLeft = () => {
-    setOffset(offset + 1300);
+    offset !== 0 ? setOffset(offset + 1300) : setOffset(0);
   };
   const SlideRight = () => {
-    setOffset(offset - 1300);
+    offset !== -7800 ? setOffset(offset - 1300) : setOffset(-7800);
   };
 
   return (

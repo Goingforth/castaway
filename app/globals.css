@@ -7,6 +7,7 @@ body {
   --color-blue: #118da8;
   --color-black: #000000;
   --color-gray: rgba(255, 255, 255, 0.7);
+  --color-gray_back: rgba(255, 255, 255, 0.2);
   --color-yellow: #fcff51;
   --color-hover_comment: rgb(8, 5, 5);
 }
