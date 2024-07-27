@@ -350,6 +350,38 @@ const SvgSprite = ({ id }) => {
           </defs>
         </svg>
       );
+    case "gallery-left":
+      return (
+        <svg
+          width='60'
+          height='60'
+          viewBox='0 0 60 60'
+          fill='inherit'
+          xmlns='http://www.w3.org/2000/svg'
+        >
+          <path
+            d='M8.02208 29.0912L16.3335 20.7142L14.9161 19.2856L4.28572 29.9999L14.9161 40.7142L16.3335 39.2856L8.22338 31.1115L55.7143 31.1115V29.0912L8.02208 29.0912Z'
+            fill='inherit'
+            fillOpacity='0.7'
+          />
+        </svg>
+      );
+    case "gallery-right":
+      return (
+        <svg
+          width='60'
+          height='60'
+          viewBox='0 0 60 60'
+          fill='inherit'
+          xmlns='http://www.w3.org/2000/svg'
+        >
+          <path
+            d='M51.978 29.0912L43.6666 20.7142L45.084 19.2856L55.7143 29.9999L45.084 40.7142L43.6666 39.2856L51.7767 31.1115L4.28577 31.1115V29.0912L51.978 29.0912Z'
+            fill='inherit'
+            fillOpacity='0.7'
+          />
+        </svg>
+      );
     default:
       return <svg></svg>;
   }

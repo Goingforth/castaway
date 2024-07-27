@@ -1,5 +1,4 @@
 import { episode1, episode2, episode3 } from "@/public/episodes";
-import { radio1, radio2, radio3, radio4, radio5 } from "@/public/radio";
 
 export const dataEpisodes = [
   {

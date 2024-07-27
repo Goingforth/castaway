@@ -1,4 +1,7 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   margin: 100px 20px;
   width: 1300px;
   height: 740px;
@@ -19,4 +22,26 @@
   transition-property: transform;
   transition-duration: 500ms;
   transition-timing-function: ease-in-out;
+}
+.counter {
+  margin-top: 10px;
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--color-white);
+}
+.buttonLeft {
+  position: absolute;
+  cursor: pointer;
+  left: 40px;
+  top: 50%;
+
+  fill: var(--color-white);
+}
+.buttonRight {
+  position: absolute;
+  cursor: pointer;
+  right: 40px;
+  top: 50%;
+
+  fill: var(--color-white);
 }
