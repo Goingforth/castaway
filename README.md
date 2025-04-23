@@ -10,4 +10,4 @@
 
 - front : [React + Next + Sass](https://castawaypet.netlify.app/)
 
-  slider,flex
+  slider, flex
